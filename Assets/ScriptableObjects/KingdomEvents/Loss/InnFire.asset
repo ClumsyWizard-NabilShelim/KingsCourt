@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a202bf2e82f1046c981b5624a32f1377, type: 3}
+  m_Name: InnFire
+  m_EditorClassIdentifier: 
+  <EventName>k__BackingField: Inn Fire
+  <EventDescription>k__BackingField: My King, an Inn caught fire last night due to
+    a brawl started by your city watch. No one was hurt but the owner seeks repayment
+    for his losses.
+  <AgreeLabel>k__BackingField: Send Aid
+  <DeclintLabel>k__BackingField: Ignore
+  agreeResult:
+    entries:
+    - key: 0
+      value: -1000
+  agreeFactionPopularityResult:
+    entries:
+    - key: 0
+      value: 1
+    - key: 3
+      value: -1
+    - key: 4
+      value: -1
+  declineFactionPopularityResult:
+    entries:
+    - key: 0
+      value: -1
+    - key: 4
+      value: 1

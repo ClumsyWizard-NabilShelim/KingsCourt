@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a202bf2e82f1046c981b5624a32f1377, type: 3}
+  m_Name: Revolt
+  m_EditorClassIdentifier: 
+  <EventName>k__BackingField: Revolution
+  <EventDescription>k__BackingField: My King, one of your lords has taken up arms
+    against the kingdom and is wreaking havoc on your loyal subjects. We urge you
+    to mobilize a sizeable battalion to quench the rebellion.
+  <AgreeLabel>k__BackingField: Mobilize Battalion
+  <DeclintLabel>k__BackingField: Ignore
+  agreeResult:
+    entries:
+    - key: 0
+      value: -2000
+    - key: 2
+      value: -100
+  agreeFactionPopularityResult:
+    entries: []
+  declineFactionPopularityResult:
+    entries:
+    - key: 0
+      value: -3
+    - key: 1
+      value: -3

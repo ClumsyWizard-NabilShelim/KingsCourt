@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f5f7740d3a748a79d6d2762e618b07, type: 3}
+  m_Name: PayCutForAdvisors
+  m_EditorClassIdentifier: 
+  <FactionSprite>k__BackingField: {fileID: 21300000, guid: 6d43a566f1d854f14b816bd97b75c105, type: 3}
+  <Demand>k__BackingField: My King, your loyal subjects work harder than your pompous
+    Advisors, with all due respect. Wouldn't it be fair to cut their pay? It's of
+    course in the interest of the realm.
+  <AgreeLabel>k__BackingField: Cut Pay
+  <DeclintLabel>k__BackingField: Decline
+  agreeResult:
+    entries:
+    - key: 0
+      value: 500
+  agreeFactionPopularityResult:
+    entries:
+    - key: 3
+      value: -2
+    - key: 1
+      value: 1
+  declineFactionPopularityResult:
+    entries:
+    - key: 1
+      value: -2
+    - key: 3
+      value: 1

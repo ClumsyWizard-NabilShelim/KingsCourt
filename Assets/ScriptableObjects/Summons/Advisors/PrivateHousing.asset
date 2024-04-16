@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f5f7740d3a748a79d6d2762e618b07, type: 3}
+  m_Name: PrivateHousing
+  m_EditorClassIdentifier: 
+  <FactionSprite>k__BackingField: {fileID: 21300000, guid: b71657d980557458298ae3e84c83a3f3, type: 3}
+  <Demand>k__BackingField: My King, an advisor must always be close to the king.
+    Hence we request you to build us private housing close to the keep so that we
+    can live with our family closer to you.
+  <AgreeLabel>k__BackingField: Build Housing
+  <DeclintLabel>k__BackingField: Decline
+  agreeResult:
+    entries:
+    - key: 0
+      value: -2000
+    - key: 1
+      value: 300
+    - key: 2
+      value: 25
+  agreeFactionPopularityResult:
+    entries:
+    - key: 1
+      value: -2
+    - key: 3
+      value: 1
+  declineFactionPopularityResult:
+    entries:
+    - key: 3
+      value: -1
+    - key: 1
+      value: 1
