@@ -68,7 +68,7 @@ public class KingdomResolveManager : GameplayModule
             //20% Chance of trouble event
             if (kingdomEventTrouble.Count > 0)
             {
-                currentKingdomEventSO = kingdomEventTrouble[Random.Range(0, kingdomEventLoss.Count)];
+                currentKingdomEventSO = kingdomEventTrouble[Random.Range(0, kingdomEventTrouble.Count)];
                 UpdateUI();
             }
             else
